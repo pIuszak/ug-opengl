@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Dev/OpenGL/lab6/ex1/light_material.cpp
+stdio.h
+-
+GL/glew.h
+-
+GL/freeglut.h
+-
+GL/SOIL.h
+-
+math.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+obj_loader.hpp
+C:/Dev/OpenGL/lab6/ex1/obj_loader.hpp
+shader_stuff.h
+C:/Dev/OpenGL/lab6/ex1/shader_stuff.h
+
+C:/Dev/OpenGL/lab6/ex1/obj_loader.hpp
+vector
+-
+stdio.h
+-
+string
+-
+cstring
+-
+glm/glm.hpp
+-
+
+C:/Dev/OpenGL/lab6/ex1/shader_stuff.h
+fstream
+-
+

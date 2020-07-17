@@ -1,0 +1,3 @@
+C:/Dev/OpenGL/lab6/transparency/CMakeFiles/transparency.dir
+C:/Dev/OpenGL/lab6/transparency/CMakeFiles/edit_cache.dir
+C:/Dev/OpenGL/lab6/transparency/CMakeFiles/rebuild_cache.dir

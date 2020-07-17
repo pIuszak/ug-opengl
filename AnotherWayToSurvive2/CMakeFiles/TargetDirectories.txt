@@ -1,0 +1,3 @@
+C:/Dev/OpenGL/AnotherWayToSurvive2/CMakeFiles/AnotherWayToSurvive2.dir
+C:/Dev/OpenGL/AnotherWayToSurvive2/CMakeFiles/edit_cache.dir
+C:/Dev/OpenGL/AnotherWayToSurvive2/CMakeFiles/rebuild_cache.dir

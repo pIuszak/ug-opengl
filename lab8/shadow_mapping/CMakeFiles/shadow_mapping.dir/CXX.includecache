@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Dev/OpenGL/lab8/shadow_mapping/obj_loader.hpp
+vector
+-
+stdio.h
+-
+string
+-
+cstring
+-
+glm/glm.hpp
+-
+
+C:/Dev/OpenGL/lab8/shadow_mapping/shader_stuff.h
+fstream
+-
+
+C:/Dev/OpenGL/lab8/shadow_mapping/shadow_mapping.cpp
+GL/SOIL.h
+-
+stdio.h
+-
+GL/glew.h
+-
+GL/freeglut.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+obj_loader.hpp
+C:/Dev/OpenGL/lab8/shadow_mapping/obj_loader.hpp
+shader_stuff.h
+C:/Dev/OpenGL/lab8/shadow_mapping/shader_stuff.h
+

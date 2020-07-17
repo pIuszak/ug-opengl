@@ -1,0 +1,3 @@
+C:/Dev/OpenGL/lab8/rendering_pozaekranowy/CMakeFiles/rendering_pozaekranowy.dir
+C:/Dev/OpenGL/lab8/rendering_pozaekranowy/CMakeFiles/edit_cache.dir
+C:/Dev/OpenGL/lab8/rendering_pozaekranowy/CMakeFiles/rebuild_cache.dir

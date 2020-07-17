@@ -1,1 +1,1 @@
-# ug-opengl
+# OpenGL

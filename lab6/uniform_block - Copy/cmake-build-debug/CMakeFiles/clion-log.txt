@@ -1,0 +1,4 @@
+"C:\Users\paull\AppData\Local\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Projects\OpenGL\lab5\lab5ex1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Projects/OpenGL/lab5/lab5ex1/cmake-build-debug

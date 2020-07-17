@@ -1,0 +1,3 @@
+D:/Projects/OpenGL/lab5/lab5ex1/CMakeFiles/rebuild_cache.dir
+D:/Projects/OpenGL/lab5/lab5ex1/CMakeFiles/lab5ex1.dir
+D:/Projects/OpenGL/lab5/lab5ex1/CMakeFiles/edit_cache.dir

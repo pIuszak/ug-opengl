@@ -1,0 +1,13 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl M
+Ns 225.000000
+Ka 0.154545 0.154545 0.154545
+Kd 0.800000 0.800000 0.800000
+Ks 0.184848 0.184848 0.184848
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\48608\\Desktop\\Texture\\2048x2048\\Body\\Body_Base_Color.png

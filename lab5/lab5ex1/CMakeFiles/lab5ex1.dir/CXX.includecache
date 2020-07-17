@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/OpenGL/lab5/lab5ex1/shader_stuff.h
+fstream
+-
+
+D:/Projects/OpenGL/lab5/lab5ex1/simple_texture.cpp
+stdio.h
+-
+GL/glew.h
+-
+GL/freeglut.h
+-
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+texture_loader.hpp
+D:/Projects/OpenGL/lab5/lab5ex1/texture_loader.hpp
+shader_stuff.h
+D:/Projects/OpenGL/lab5/lab5ex1/shader_stuff.h
+
+D:/Projects/OpenGL/lab5/lab5ex1/texture_loader.hpp
+GL/glew.h
+-
+

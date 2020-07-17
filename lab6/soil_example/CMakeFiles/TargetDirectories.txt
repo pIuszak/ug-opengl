@@ -1,0 +1,3 @@
+D:/Projects/OpenGL/lab6/soil_example/CMakeFiles/soil_example.dir
+D:/Projects/OpenGL/lab6/soil_example/CMakeFiles/edit_cache.dir
+D:/Projects/OpenGL/lab6/soil_example/CMakeFiles/rebuild_cache.dir

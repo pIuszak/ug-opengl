@@ -1,0 +1,3 @@
+C:/Dev/OpenGL/lab9/bones/CMakeFiles/bones.dir
+C:/Dev/OpenGL/lab9/bones/CMakeFiles/edit_cache.dir
+C:/Dev/OpenGL/lab9/bones/CMakeFiles/rebuild_cache.dir

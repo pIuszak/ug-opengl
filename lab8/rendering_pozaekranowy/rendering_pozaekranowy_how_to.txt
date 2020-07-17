@@ -1,0 +1,68 @@
+// --------------------------------------------------
+// Rendering pozaekranowy do tekstury
+// --------------------------------------------------
+
+
+// --------------------------------------------------
+// INICJALIZACJA
+
+// Identyfikatory buforow
+GLuint FrameBufferID;
+GLuint DepthBufferID;
+
+
+
+// --------------------------------------------------
+// 1. Generowanie bufora ramki
+
+GLuint FrameBufferID;
+glGenFramebuffers(1, &FrameBufferID);
+glBindFramebuffer(GL_FRAMEBUFFER, FrameBufferID);
+
+// 2. Stworzenie tekstury do ktorej nastapi rendering
+GLuint TextureBuffer;
+glGenTextures(1, &TextureBuffer);
+glBindTexture(GL_TEXTURE_2D, TextureBuffer);
+
+glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, Window_Width, Window_Height, 0, GL_RGB, GL_UNSIGNED_BYTE, NULL);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+// 3. Polaczenie tekstury oraz bufora ramki
+glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, TextureBuffer, 0);
+
+
+// 4. Stworzenie bufora do testu glebokosci
+GLuint DepthBufferID;
+glGenRenderbuffers(1, &DepthBufferID);
+glBindRenderbuffer(GL_RENDERBUFFER, DepthBufferID);
+glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT24, Window_Width, Window_Height);
+glBindRenderbuffer(GL_RENDERBUFFER, 0);
+
+// Polaczenie bufora glebokosci z aktualnym obiektem bufora ramki
+glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, DepthBufferID);
+
+
+// Powrot do domyslnego bufora ramki
+glBindFramebuffer(GL_FRAMEBUFFER, 0);
+
+
+// --------------------------------------------------
+// RENDEROWANIE SCENY
+
+// 1. Renderowanie sceny do tekstury
+glBindFramebuffer(GL_FRAMEBUFFER, FrameBufferID);
+glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+
+DrawScene_to_texture();
+
+// 2. Renderowanie sceny na ekran
+glBindFramebuffer(GL_FRAMEBUFFER, 0);
+glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+
+
+DrawScene_on_screen();
+
+
+
+

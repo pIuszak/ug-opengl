@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Dev/OpenGL/lab6/uniform_block/shader_stuff.h
+fstream
+-
+
+C:/Dev/OpenGL/lab6/uniform_block/uniform_block.cpp
+stdio.h
+-
+GL/glew.h
+-
+GL/freeglut.h
+-
+shader_stuff.h
+C:/Dev/OpenGL/lab6/uniform_block/shader_stuff.h
+
